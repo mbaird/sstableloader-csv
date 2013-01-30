@@ -11,8 +11,8 @@ For example:
 
 === Requirements
 
-*$CASSANDRA_HOME must be set to the location of the apache-cassandra.jar & associated libraries.
-*$CASSANDRA_CONFIG must be set to the location of your cassandra.yml config.
+* $CASSANDRA_HOME must be set to the location of the apache-cassandra.jar & associated libraries.
+* $CASSANDRA_CONFIG must be set to the location of your cassandra.yml config.
 
 === Note
 

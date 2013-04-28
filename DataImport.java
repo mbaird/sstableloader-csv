@@ -24,6 +24,8 @@ public class DataImport {
             System.exit(1);
         }
 
+        long start = System.currentTimeMillis();
+
         String keyspace = args[0];
         String col = args[1];
         filename = args[2];
@@ -68,7 +70,11 @@ public class DataImport {
 
         }
 
+        long end = System.currentTimeMillis();
+
         System.out.println("Successfully parsed " + lineNumber + " lines.");
+        System.out.println("Execution time was "+(end-start)+" ms.");
+
         usersWriter.close();
         System.exit(0);
 

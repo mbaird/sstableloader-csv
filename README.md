@@ -1,3 +1,6 @@
+## THIS IS PURE ANCIENT.
+This is 4 years old and likely doesn't work anymore. You're of course welcome to fork & update, but I won't be providing support for this. Good luck!
+
 # sstableloader-csv
 
 This tool parses CSV files into sstables for Apache Cassandra. It was written for a project involving the need to parse ~75 Million row CSV files.
